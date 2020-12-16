@@ -1,6 +1,5 @@
 normal_list = ["Joe", "John", "David", "William"] 
 
-
 def initialization():
     rev_list = string_reverser()
     combined_lists = zip(normal_list, rev_list)
