@@ -16,8 +16,7 @@ def quad_text(combined_lists):
         text_len = len(norm_list)
         spaces = (text_len - 2) *(" ")
         lines = (text_len + 4) *("=")
-        print("\n")
-        print(f" {lines} ")
+        print(f"\n {lines} ")
         print(f"|| {norm_list} ||")
         for i, j in zip(norm_list[1:-1], reve_list[1:-1]):
             print(f"|| {i}{spaces}{j} ||")
